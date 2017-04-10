@@ -1,12 +1,13 @@
 // Global Components
 body {
-	background: #fff;
+    background: #fff;
 }
 
 hr {
     border-color: $theme-primary;
     border-width: 3px;
     max-width: 50px;
+    margin: 20px auto;
 }
 
 hr.light {
@@ -63,7 +64,6 @@ aside {
 }
 
 // Navigation
-
 .navbar-default {
     background-color: white;
     border-color: fade($gray-darker, 5%);
@@ -110,48 +110,27 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
         border-color: fade(white, 30%);
         .navbar-header .navbar-brand {
             color: fade(white, 70%);
             &:hover,
             &:focus {
-                color: white;
+                color: #F05F40;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
             color: fade(white, 70%);
             &:hover {
-                color: white;
-            }
-        }
-        &.affix {
-            background-color: white;
-            border-color: fade($gray-darker, 5%);
-            .navbar-header .navbar-brand {
-                color: $theme-primary;
-                font-size: 14px;
-                &:hover,
-                &:focus {
-                    color: darken($theme-primary, 10%);
-                }
-            }
-            .nav > li > a,
-            .nav > li > a:focus {
-                color: $gray-darker;
-                &:hover {
-                    color: $theme-primary;
-                }
+                color: #F05F40;
             }
         }
     }
 }
 
 // Homepage Header
-
 header {
-	overflow: hidden;
+    overflow: hidden;
     position: relative;
     width: 100%;
     height: 1000px;
@@ -212,7 +191,6 @@ header {
 }
 
 // Sections
-
 .section-heading {
     margin-top: 0;
 }
@@ -299,17 +277,21 @@ header {
 }
 
 .no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 // Button Styles
 .btn-default {
-    @include button-variant($gray-darker,white,white);
+    @include button-variant($gray-darker,
+    white,
+    white);
 }
 
 .btn-primary {
-    @include button-variant(white,$theme-primary,$theme-primary);
+    @include button-variant(white,
+    $theme-primary,
+    $theme-primary);
 }
 
 .btn {
