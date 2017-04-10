@@ -1,6 +1,7 @@
 {% extends "layout.nunjucks" %}
 {% set page_id = 'home' %}
 
+
 {% block content %}
 	<header>
         <div class="header-content">
@@ -12,7 +13,7 @@
             </div>
         </div>
     </header>
-    
+
     
 	<section class="bg-primary" id="about">
         <div class="container">
