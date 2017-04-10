@@ -1,0 +1,32 @@
+// App vars and mixins
+@import 'variables';
+@import 'mixins';
+
+// Bootstrap imports
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "bootstrap/mixins";
+@import "bootstrap/grid";
+// @import "bootstrap/modals";
+// @import "bootstrap/close";
+
+
+
+
+
+// App base
+@import 'base/reset';
+@import 'base/core';
+@import 'base/fonts';
+@import 'base/icons';
+@import 'base/buttons';
+
+// App components
+@import 'components/header';
+@import 'components/footer';
+
+// Template
+@import 'template/creative';
+
+// App pages
+@import 'pages/home';
+

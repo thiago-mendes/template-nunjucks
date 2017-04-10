@@ -1,0 +1,431 @@
+#slide_home {
+    .slide_home--item {
+        position: relative;
+        .slide_home--bg {
+            width: 100%;
+            display: block;
+        }
+        .no-desk {
+            display: none;
+        }
+        .slide_home--content {
+            transform: translate(-50%, -30%);
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+            z-index: 800;
+            text-align: center;
+            max-width: 700px;
+        }
+    }
+}
+
+#escolhimk_home {
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(241, 241, 241, 1) 53%, rgba(241, 241, 241, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(49%, rgba(255, 255, 255, 1)), color-stop(53%, rgba(241, 241, 241, 1)), color-stop(100%, rgba(241, 241, 241, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(241, 241, 241, 1) 53%, rgba(241, 241, 241, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(241, 241, 241, 1) 53%, rgba(241, 241, 241, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(241, 241, 241, 1) 53%, rgba(241, 241, 241, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(241, 241, 241, 1) 53%, rgba(241, 241, 241, 1) 100%);
+    position: relative;
+    height: 100%;
+    .container {
+        display: flex;
+    }
+    .escolhimk_home--historia {
+        width: 33.3%;
+        height: 100%;
+        position: relative;
+        &::before {
+            content: " ";
+            position: absolute;
+            width: 25px;
+            border-top: solid 1px #f7b5b3;
+            display: block;
+            left: 0;
+            top: 30px;
+        }
+        div {
+            padding: 55px 55px 40px 0;
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+    }
+    .escolhimk_home--perfil {
+        background: #e4e4e4;
+        height: 100%;
+        width: 33.3%;
+        border-right: solid 5px #fff;
+        position: relative;
+        &::before,
+        &::after {
+            content: " ";
+            width: 50px;
+            position: absolute;
+            left: -25px;
+            height: 50px;
+            background-size: cover;
+        }
+        &::before {
+            background-image: url("../images/home/icon-cam.png");
+            top: 30%;
+        }
+        &::after {
+            background-image: url("../images/home/icon-film.png");
+            top: 50%;
+        }
+        div {
+            padding: 60px 40px;
+            position: relative;
+            &::before {
+                content: " ";
+                position: absolute;
+                width: 40px;
+                border-top: solid 1px #000;
+                display: block;
+                left: 50%;
+                margin-left: -20px;
+                bottom: 40px;
+            }
+        }
+    }
+    .escolhimk_home--voce {
+        width: 33.3%;
+        background: #f1f1f1;
+        height: 100%;
+        padding: 0;
+        div {
+            padding: 60px 40px 60px 40px;
+            height: 100%;
+            text-align: right;
+            h3 {
+                font-size: 45px;
+                margin-bottom: 15px;
+                text-transform: uppercase;
+            }
+            p {
+                font-size: 14px;
+                margin-bottom: 10px;
+                padding-left: 40px;
+            }
+            .bt {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+#escolha_home {
+    background: #e8ebed url("../images/home/bg-escolha.png") no-repeat;
+    padding: 55px 0 15px;
+    display: flex;
+    .escolha_home--left {
+        position: relative;
+        height: 100%;
+        h3 {
+            position: absolute;
+            top: 65%;
+            left: 0;
+            font-size: 100px;
+            color: #fff;
+            font-weight: lighter;
+            font-style: italic;
+        }
+    }
+    .escolha_home--right {
+        div {
+            padding: 0 60px;
+            p,
+            h4 {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            .list {
+                span {
+                    text-align: center;
+                    width: 30px;
+                    float: left;
+                    margin: 0 10px 0 0;
+                }
+            }
+        }
+    }
+}
+
+#webserie_home {
+    padding: 110px 0;
+    border-top: solid 2px #000;
+    h3 {
+        font-size: 100px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    .webserie_home--left {
+        p {
+            font-size: 14px;
+            display: block;
+            width: 200px;
+            line-height: 18px;
+            position: relative;
+            &::before {
+                content: " ";
+                position: absolute;
+                width: 25px;
+                background: #000;
+                border-top: solid 1px #f7b5b3;
+                display: block;
+                left: 0;
+                top: -15px;
+            }
+        }
+    }
+    .webserie_home--right {
+        text-align: right;
+        p {
+            padding-right: 100px;
+            position: relative;
+            &::before {
+                content: " ";
+                position: absolute;
+                width: 30px;
+                background: #000;
+                border-top: solid 1px #f7b5b3;
+                display: block;
+                margin-left: -15px;
+                left: 50%;
+                bottom: -20px;
+            }
+        }
+    }
+}
+
+#realizar_home {
+    height: 142px;
+    display: block;
+    background: #fff url("../images/home/bg-realize.png") no-repeat;
+    background-size: 100% 100%;
+    color: #f7b5b3;
+    text-align: center;
+    font-size: 34px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 100px;
+    text-indent: -200px;
+}
+
+#itbag_home {
+    background: #FFEDE6 url("../images/home/bg-sup.png") 0 -8px no-repeat;
+    background-size: 100%;
+    padding: 60px 0 0;
+    .itbag_home--left {
+        img {
+            position: relative;
+            top: -140px;
+        }
+    }
+    h3 {
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+    .text {
+        h4 {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        p {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 1340px) {
+    #escolha_home {
+        background-position: -250px 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    #escolha_home {
+        background-position: -390px 0;
+        .escolha_home--left {
+            h3 {
+                font-size: 70px;
+            }
+        }
+        .escolha_home--right {
+            div {
+                padding: 0;
+            }
+        }
+    }
+    #escolhimk_home {
+        background: #f1f1f1;
+        .container {
+            display: block;
+        }
+        .escolhimk_home--historia {
+            background: #fff;
+            width: 100%;
+            padding: 0 50px;
+        }
+        .escolhimk_home--perfil {
+            float: left;
+            &::before,
+            &::after {
+                top: -25px;
+            }
+            &::before {
+                left: 35%;
+            }
+            &::after {
+                left: 55%;
+            }
+        }
+        .escolhimk_home--voce {
+            float: left;
+            width: 66.6%;
+            height: 100%;
+            align-items: stretch;
+        }
+    }
+    #webserie_home {
+        padding: 50px 0;
+        h3 {
+            font-size: 50px;
+        }
+        .webserie_home--left {
+            margin-bottom: 50px
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    #slide_home {
+        .slide_home--item {
+            .slide_home--content {
+                width: 80%;
+                img {
+                    width: 80%;
+                }
+            }
+            .slide_home--bg {
+                width: 100%;
+                display: block;
+            }
+            .no-desk {
+                display: block;
+            }
+            .no-mobile {
+                display: none;
+            }
+        }
+    }
+    #itbag_home {
+        .text {
+            margin: 0 auto;
+            max-width: 260px;
+        }
+    }
+    #escolhimk_home {
+        .escolhimk_home--perfil {
+            float: left;
+            width: 50%;
+        }
+        .escolhimk_home--voce {
+            float: left;
+            width: 50%;
+            height: 100%;
+            align-items: stretch;
+        }
+    }
+    #itbag_home {
+        margin-bottom: -80px;
+        padding-bottom: 120px;
+        .itbag_home--left {
+            text-align: center;
+            margin-bottom: 50px;
+            img {
+                position: relative;
+                top: 0;
+            }
+        }
+    }
+    #webserie_home {
+        .webserie_home--right {
+            p {
+                padding: 0;
+                text-align: center;
+                img {
+                    width: 80%;
+                }
+            }
+        }
+        .webserie_home--left {
+            p {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    #escolhimk_home {
+        .escolhimk_home--historia {
+            padding: 50px;
+            div {
+                padding: 0;
+            }
+        }
+        .escolhimk_home--perfil {
+            float: left;
+            width: 100%;
+            border: 0;
+            img {
+                width: 100%;
+            }
+        }
+        .escolhimk_home--voce {
+            float: left;
+            width: 100%;
+            align-items: stretch;
+            div {
+                text-align: center;
+                p {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+    #escolha_home {
+        background: #e8ebed;
+        .escolha_home--left {
+            position: relative;
+            height: auto;
+            margin-bottom: 20px;
+            h3 {
+                font-size: 60px;
+                top: 0;
+                position: relative;
+            }
+        }
+        .escolha_home--right {
+            div {
+                padding: 0;
+            }
+        }
+    }
+    #realizar_home {
+        background: #000;
+        text-indent: 0;
+        line-height: 140px;
+        font-size: 24px;
+    }
+}

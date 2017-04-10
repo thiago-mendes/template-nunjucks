@@ -1,0 +1,7 @@
+<div class="social-share">
+    <p><span>Curtiu? Então <strong>compartilhe</strong></span></p>
+    <div class="links">
+        <a href="#">{{ icon('facebook') }}</a>
+        <a href="#">{{ icon('twitter') }}</a>
+    </div>
+</div>

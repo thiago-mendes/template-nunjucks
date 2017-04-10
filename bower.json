@@ -1,0 +1,24 @@
+{
+  "name": "template-nunjucks",
+  "description": "Simples template com nunjucks + gulp + bower",
+  "main": "",
+  "authors": [
+    "Thiago Mendes <almeida16tm@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize-scss": "normalize.scss#^6.0.0",
+    "bootstrap-sass": "^3.3.7",
+    "scrollreveal": "^3.3.5"
+  }
+}

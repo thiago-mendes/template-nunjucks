@@ -1,0 +1,43 @@
+{
+  "name": "template-nunjucks",
+  "version": "1.0.0",
+  "description": "Simples template com nunjucks + Gulp + Bower",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-awspublish": "^3.3.0",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.8",
+    "gulp-version-number": "^0.1.6",
+    "rimraf": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/bower install --alow-root",
+    "start": "./node_modules/.bin/gulp",
+    "build": "./node_modules/.bin/gulp build",
+    "deploy": "./node_modules/.bin/gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiago-mendes/template-nunjucks"
+  },
+  "keywords": [
+    "Desenvolvimento HTML",
+    "Nunjucks",
+    "FrontEnd"
+  ],
+  "author": "Thiago Mendes",
+  "license": "MIT"
+}

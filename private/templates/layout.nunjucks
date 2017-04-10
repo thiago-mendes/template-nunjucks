@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Template</title>
+    <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="assets/css/vendors.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body id="page-top">
+    {% include "header-main.nunjucks" %}
+
+    {% block content %}{% endblock %}
+
+    {% include "footer-main.nunjucks" %}
+
+    <!-- SCRIPTS -->
+    <script src="assets/js/vendors.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

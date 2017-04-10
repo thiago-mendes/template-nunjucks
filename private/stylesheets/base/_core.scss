@@ -1,0 +1,24 @@
+body {
+  background-color: $body-bg;
+  color: $text-color;
+  font: 400 $font-size-base $font-family-base;
+  min-width: 320px;
+  overflow-x: hidden;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  font: 400 $font-size-base $font-family-base;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 990px;
+}
