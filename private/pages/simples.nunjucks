@@ -1,9 +1,9 @@
 {% extends "layout.nunjucks" %}
-{% set page_name = 'home' %}
+{% set page_name = 'simples' %}
 
 
 {% block content %}
-<section id="page-simples">
+<section class="bg-cinza" id="page-simples">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -38,7 +38,11 @@
 
                 <hr class="dark">
 
-                <p><a href="#" target="_blank" class="btn btn-primary btn-xl sr-button">Botão</a> <a href="#" target="_blank" class="btn btn-danger btn-xl sr-button">Botão</a> <a href="#" target="_blank" class="btn btn-success btn-xl sr-button">Botão</a> <a href="#" target="_blank" class="btn btn-default btn-xl sr-button">Botão</a></p>
+                <p>
+                	<a href="#" target="_blank" class="btn btn-primary btn-xl sr-button">Botão</a> 
+                	<a href="#" target="_blank" class="btn btn-danger btn-xl sr-button">Botão</a> 
+                	<a href="#" target="_blank" class="btn btn-success btn-xl sr-button">Botão</a> 
+                	<a href="#" target="_blank" class="btn btn-default btn-xl sr-button">Botão</a></p>
             </div>
         </div>
     </div>
