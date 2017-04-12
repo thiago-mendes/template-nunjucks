@@ -1,0 +1,46 @@
+{% extends "layout.nunjucks" %}
+{% set page_name = 'home' %}
+
+
+{% block content %}
+<section id="page-simples">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Titulo</h2>
+                <h3>Titulo</h3>
+                <h4>Titulo</h4>
+                <h5>Titulo</h5>
+                <h6>Titulo</h6>
+                <hr class="dark">
+
+                <p>Lorem ipsum dolor <a href="#">sit amet</a></p>
+
+                <ul>
+                	<li>Lorem ipsum dolor sit amet</li>
+                	<li>Lorem ipsum dolor sit amet</li>
+                	<li>Lorem ipsum dolor sit amet</li>
+                </ul>
+
+                <ol>
+                	<li>Lorem ipsum dolor sit amet</li>
+                	<li>Lorem ipsum dolor sit amet</li>
+                	<li>Lorem ipsum dolor sit amet</li>
+                </ol>
+
+                <hr class="dark">
+
+                <p>
+                	<figure>
+                		<img src="assets/images/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                	</figure>
+                </p>
+
+                <hr class="dark">
+
+                <p><a href="#" target="_blank" class="btn btn-primary btn-xl sr-button">Botão</a> <a href="#" target="_blank" class="btn btn-danger btn-xl sr-button">Botão</a> <a href="#" target="_blank" class="btn btn-success btn-xl sr-button">Botão</a> <a href="#" target="_blank" class="btn btn-default btn-xl sr-button">Botão</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
