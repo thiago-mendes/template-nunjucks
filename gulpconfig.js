@@ -18,7 +18,10 @@ exports.paths = {
     ]
   },
   project: {
-    fonts: [this.dirs.private + '/fonts/**'],
+    fonts: [
+      this.dirs.private + '/fonts/**',
+      this.dirs.bower + '/components-font-awesome/fonts/**',
+    ],
     images: [this.dirs.private + '/images/**'],
     json: [this.dirs.private + '/json/**'],
     scripts: [this.dirs.private + '/scripts/**/*.js'],

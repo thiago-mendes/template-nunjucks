@@ -11,16 +11,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
+                <li class="{% if page_name == 'home' %} active{% endif %}">
                     <a class="page-scroll" href="index.html">Home</a>
                 </li>
-                <li>
+                <li class="{% if page_name == 'simples' %} active{% endif %}">
                     <a class="page-scroll" href="simples.html">Página simples</a>
                 </li>
-                <li>
+                <li class="{% if page_name == 'portfolio' or  page_name == 'job' %} active{% endif %}">
                     <a class="page-scroll" href="portfolio.html">Portfólio</a>
                 </li>
-                <li>
+                <li class="{% if page_name == 'contato' %} active{% endif %}">
                     <a class="page-scroll" href="contato.html">Contato</a>
                 </li>
             </ul>

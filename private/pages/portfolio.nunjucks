@@ -1,5 +1,5 @@
 {% extends "layout.nunjucks" %}
-{% set page_name = 'home' %}
+{% set page_name = 'portfolio' %}
 
 
 {% block content %}
