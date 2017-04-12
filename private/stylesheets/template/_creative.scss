@@ -48,7 +48,7 @@ p {
 }
 
 .text-faded {
-    color: fade(white, 70%);
+    color: #fff;
 }
 
 section {
@@ -66,7 +66,7 @@ aside {
 // Navigation
 .navbar-default {
     background-color: white;
-    border-color: fade($gray-darker, 5%);
+    border-color: $gray-darker;
     @include sans-serif-font();
     @include transition-all();
     .navbar-header .navbar-brand {
@@ -110,9 +110,9 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        border-color: fade(white, 30%);
+        border-color: white;
         .navbar-header .navbar-brand {
-            color: fade(white, 70%);
+            color: #000;
             &:hover,
             &:focus {
                 color: #F05F40;
@@ -120,7 +120,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade(white, 70%);
+            color: white;
             &:hover {
                 color: #F05F40;
             }
@@ -157,7 +157,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: fade(white, 70%);
+                color: white;
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -215,7 +215,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: fade($theme-primary, 90%);
+        background: $theme-primary;
         position: absolute;
         bottom: 0;
         text-align: center;

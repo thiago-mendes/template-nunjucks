@@ -74,7 +74,7 @@
             <div class="call-to-action">
                 <h2>Tema Creative</h2>
                 <p>O template foi desenvolvido com o tema Creative Bootstrap da Start Bootstrap.</p>
-                <a href="https://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Ver a documentação do tema</a>
+                <a href="https://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button" target="_blank">Ver a documentação do tema</a>
             </div>
         </div>
     </aside>
